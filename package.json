@@ -1,7 +1,7 @@
 {
   "name": "ember-lodash-macros",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember computed macros with lodash in mind",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "rjhilgefort",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
@@ -38,7 +38,10 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "lodash",
+    "computed",
+    "macros"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.3"
