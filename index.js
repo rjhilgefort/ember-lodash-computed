@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-lodash-macros',
+  name: 'ember-lodash-computed',
 
   isDevelopingAddon: function(app) {
     return true;

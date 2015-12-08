@@ -1,4 +1,4 @@
-# Ember-lodash-macros
+# Ember-lodash-computed
 
 This README outlines the details of collaborating on this Ember addon.
 

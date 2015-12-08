@@ -1,6 +1,2 @@
-// import Ember from 'ember';
-// TODO: Install
-// https://github.com/cibernox/ember-cpm/blob/master/addon/index.js
-
-import isString from './macros/is-string';
+import isString from './computed/is-string';
 export { isString };
