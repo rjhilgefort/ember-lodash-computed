@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-lodash-macros'
+  name: 'ember-lodash-macros',
+
+  isDevelopingAddon: function(app) {
+    return true;
+  }
 };
