@@ -1,7 +1,6 @@
+const _ = window._; // TODO:
 import Ember from 'ember';
-// import _ from 'lodash';
 const { computed } = Ember;
-const _ = window._; // :(
 
 /**
  * If one or more properties `isString`
