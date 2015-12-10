@@ -1,13 +1,13 @@
-const _ = window._; // TODO:
+const _ = window._;
 import Ember from 'ember';
 const { computed } = Ember;
 
 /**
- * If one or more properties `isString`
+ * If one or more properties satisfy `isString`
  *
  * @name isString
  * @param {...String} dependentKeys Argument list of dependent keys
- * @return {Ember.ComputedProperty} computed property which returns ...[TODO]
+ * @return {Ember.ComputedProperty} computed property
  */
 export default function isString(...dependentKeys) {
   return computed(dependentKeys, function() {
