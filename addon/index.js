@@ -1,2 +1,2 @@
-import isString from './computed/is-string';
+import isString from './computeds/is-string';
 export { isString };
