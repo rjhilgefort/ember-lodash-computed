@@ -1,25 +1,44 @@
-# Ember-lodash-computed
+# ember-lodash-computed
 
-This README outlines the details of collaborating on this Ember addon.
+#### Computed macros for lodash `is` methods
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```shell
+# ember-cli > 0.2.3
+ember install ember-lodash-computed
+# ember-cli <= 0.2.3
+ember install:addon ember-lodash-computed
+```
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```javascript
+import Ember from 'ember';
+import { isString } from 'ember-lodash-computed';
 
-## Running Tests
+export default Ember.Object.create({
+  foo: "foo",
+  isFooString: isString('foo') // true
+});
+```
 
-* `ember test`
-* `ember test --server`
+## Implemented Computed Methods
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+- `isArguments`
+- `isArray`
+- `isBoolean`
+- `isDate`
+- `isElement`
+- `isEmpty`
+- `isFunction`
+- `isNaN`
+- `isNative`
+- `isNull`
+- `isNumber`
+- `isObject`
+- `isPlainObject`
+- `isRegExp`
+- `isString`
+- `isTypedArray`
+- `isUndefined`
