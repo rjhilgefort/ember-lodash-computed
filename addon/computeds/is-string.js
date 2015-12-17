@@ -1,4 +1,6 @@
+const _ = window._;
 // import _ from 'lodash/lodash';
+
 import Ember from 'ember';
 const { computed } = Ember;
 
