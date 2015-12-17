@@ -1,3 +1,4 @@
+// `is` methods
 import isArguments from './computeds/is-arguments';
 export { isArguments };
 
@@ -51,3 +52,7 @@ export { isTypedArray };
 
 import isUndefined from './computeds/is-undefined';
 export { isUndefined };
+
+// others
+import includes from './computeds/includes';
+export { includes };
