@@ -1,6 +1,6 @@
 {
   "name": "ember-lodash-computed",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Ember computed macros with lodash in mind",
   "directories": {
     "doc": "doc",
