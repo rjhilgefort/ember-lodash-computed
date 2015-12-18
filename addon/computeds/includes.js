@@ -13,6 +13,6 @@ const { computed } = Ember;
  */
 export default function includes(dependentKey, target, fromIndex) {
   return computed(dependentKey, `${dependentKey}.[]`, function() {
-    return _.includes(this.get('dependentKey'), target, fromIndex);
+    return _.includes(this.get(dependentKey), target, fromIndex);
   });
 }
