@@ -12,7 +12,7 @@ const { computed } = Ember;
  * @return {Ember.ComputedProperty} computed property
  */
 export default function isTypedArray(...dependentKeys) {
-  return computed(dependentKeys, function() {
+  return computed(...dependentKeys, function() {
     return _.every(this.getProperties(dependentKeys), _.isTypedArray);
   });
 }

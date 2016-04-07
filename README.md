@@ -1,4 +1,4 @@
-# ember-lodash-computed
+# Ember-lodash-computed
 
 #### Computed macros for lodash `is` methods
 
