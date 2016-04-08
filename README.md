@@ -25,6 +25,7 @@ export default Ember.Object.create({
 
 ## Implemented Computed Methods
 
+- `includes`
 - `isArguments`
 - `isArray`
 - `isBoolean`
