@@ -14,6 +14,7 @@ module.exports = function(environment) {
     },
 
     APP: {
+
       // Here you can pass flags/options to your application instance
       // when it is created
     }
@@ -42,6 +43,15 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   }
+  ENV.contentSecurityPolicy = {
+    'default-src': ["'none'"],
+    'script-src': ["'self'", "'unsafe-inline'", "https://cdnjs.cloudflare.com"],
+    'font-src': ["'self'"],
+    'connect-src': ["'self'"],
+    'img-src': ["'self'", "data:"],
+    'style-src': ["'self'", "'unsafe-inline'"],
+    'media-src': ["'self'"]
+};
 
   return ENV;
 };

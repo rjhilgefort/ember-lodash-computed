@@ -1,4 +1,4 @@
-# ember-lodash-computed
+# Ember-lodash-computed
 
 #### Computed macros for lodash `is` methods
 
@@ -25,6 +25,7 @@ export default Ember.Object.create({
 
 ## Implemented Computed Methods
 
+- `includes`
 - `isArguments`
 - `isArray`
 - `isBoolean`
