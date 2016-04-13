@@ -1,6 +1,6 @@
 # Ember-lodash-computed [![npm version](https://badge.fury.io/js/ember-lodash-computed.svg)](https://badge.fury.io/js/ember-lodash-computed) [![Build Status](https://travis-ci.org/rjhilgefort/ember-lodash-computed.svg?branch=master)](https://travis-ci.org/rjhilgefort/ember-lodash-computed) [![Ember Observer Score](https://emberobserver.com/badges/ember-lodash-computed.svg)](https://emberobserver.com/addons/ember-lodash-computed)
 
-#### Computed macros for lodash `is` methods. As well as blueprint for generating computed properties in your own ember project
+#### Computed macros for lodash `is` methods. As well as blueprint for generating computed properties in your own ember project.
 
 ## Installation
 
