@@ -5,7 +5,7 @@ import Ember from 'ember';
 const { computed } = Ember;
 
 /**
- * If one or more properties satisfy `isString`
+ * Computed property interface for `includes`
  *
  * @name includes
  * @param {...String} dependentKeys Argument list of dependent keys
